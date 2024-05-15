@@ -1,0 +1,27 @@
+
+/* Login.css */
+
+.login-container {
+  margin: 100px;
+  width: 300px; /* Adjust width as needed */
+  margin-left: 200px; /* Move 200px to the right */
+}
+
+.login-container h2 {
+  text-align: center;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  max-width: 2000px;
+  padding: 8px;
+  font-size: 16px;
+}

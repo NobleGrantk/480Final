@@ -1,0 +1,109 @@
+/* index.css */
+
+.container {
+  display: flex;
+}
+
+.form {
+  margin-top: 200px;
+  margin-left: 300px;
+}
+
+.top-left {
+  width: 900px;
+}
+
+body,
+div {
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+.user {
+  padding-top: 20px;
+}
+
+.user-input-box {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.user-input-box label {
+  display: block;
+}
+
+.user-input-box input[type="text"],
+.user-input-box input[type="email"],
+.user-input-box input[type="password"] {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+.user-input-box select#gender {
+  width: 220px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* ------------------- */
+
+.form-submit-btn,
+.register-btn {
+  position: absolute;
+  bottom: 200px;
+  right: 18%;
+  width: 10%;
+}
+
+.form-submit-btn button,
+.register-btn input[type="submit"] {
+  border: none;
+  padding: 0.85rem 1rem;
+  background-color: #0e39fe;
+  color: white;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  width: 100%;
+  letter-spacing: 0.15em;
+  transition: all 0.3s ease;
+}
+
+.form-submit-btn button:hover,
+.register-btn input[type="submit"]:hover {
+  border: 6px solid #090c9b;
+}
+
+
+
+
+/* ----------------- */
+
+.Register-submit-btn,
+.register-btn {
+  position: absolute;
+  right: 18%;
+  width: 10%;
+}
+
+.Register-submit-btn button,
+.register-btn input[type="submit"] {
+  border: none;
+  padding: 0.85rem 1rem;
+  background-color: #0e39fe;
+  color: white;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  width: 100%;
+  letter-spacing: 0.15em;
+  transition: all 0.3s ease;
+}
+
+.Register-submit-btn button:hover,
+.register-btn input[type="submit"]:hover {
+  border: 6px solid #090c9b;
+}
